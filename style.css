@@ -1,0 +1,58 @@
+*{
+    width: 100%;
+    margin: 0%;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    font-family: 'Italiana', serif;
+    height: 5vw;
+    align-items: center;
+}
+    .logo{
+        width: 250px;
+        /*margin-top: 20px;*/
+        /*padding-top: 25px;*/
+    }
+    /*this is the name right next to the logo on the top left*/
+    .navname{
+        color: black; 
+        font-size: 1vw;
+    }
+    /*pages and links to the far right*/
+    nav a{
+        text-decoration: none;
+        color: black;
+        padding-left: 55px;
+        font-size: 1vw;
+    }
+    nav a:hover{
+        text-decoration: underline;
+}
+@media screen and (min-width: 600px) {
+}
+h1{
+    font-family: 'Italiana', serif;
+    font-size:200px;
+    margin-top: -500px;
+}
+.card{
+    float: left;
+    width: 25%;
+    padding: 0px 10px;
+    margin: 2.5em;
+    transition: transform .2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+h2{
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size:50px;
+}
